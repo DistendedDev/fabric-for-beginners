@@ -6,7 +6,13 @@ I am also not too experienced with modding, so some explainations may be inaccur
 
 ## Introduction
 ### What is a Minecraft mod?
-A mod is a program that can modify the behavior of a game. In Minecraft, mods can add new items, blocks, mobs, user interfaces and entirely new mechanics. Since Minecraft does not support mods by default, mods rely on third-party mod loaders. The most popular ones are Forge and Fabric. There is also server software such as Bukkit and Spigot which supports "plugins" which allow serverside modification. 
+A mod is a program that can modify the behavior of a game. In Minecraft, mods can add new items, blocks, mobs, user interfaces and entirely new mechanics. Since Minecraft does not support mods by default, mods rely on third-party mod loaders, which patch the game to make various changes such that modding is easier. The most popular ones are Forge and Fabric. There is also server software such as Bukkit and Spigot which supports "plugins" which allow serverside modification. 
+
+### Installing a mod
+Before creating a mod, how about learn how to use one first? 
+[Fabric Wiki](https://fabricmc.net/wiki/install)
+
+Basically, a mod is a jar file to the end user. It is put into the "mods" folder after installing the mod loader. 
 
 ### Prerequisites
 You need to have basic understanding of Java programming, the programming language that you will be developing mods with. This is also the language Minecraft is  developed with. 
@@ -20,11 +26,23 @@ A lot of the time when you are stuck on a problem that you do not know how to so
 ## Getting Started
 ### Software needed
 #### Java Development Kit
+JDK(Java Development Kit) is used to develop Java programs. The version you should use depends on the Minecraft version. 
+| MC Version | Java Version |
+|------------|--------------|
+| 1.16-      | Java 8       |
+| 1.17       | Java 16      |
+| 1.18+      | Java 17      |
 #### Notepad++
+https://notepad-plus-plus.org/
 #### IntelliJ IDEA
+https://www.jetbrains.com/idea/
 ##### plugins
+Its is recommended to get the Minecraft Development Plugin for IntelliJ
 #### paint.net
+Paint.net is a good program to use for texturing. 
+
 ### Structure
+
 ### Generating the mod with Minecraft Development Plugin
 ### Creating a GitHub Repository
 ### Adding content to Minecraft
