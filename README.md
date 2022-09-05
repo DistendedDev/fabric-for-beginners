@@ -9,7 +9,13 @@ I am also not too experienced with modding, so some explainations may be inaccur
 A mod is a program that can modify the behavior of a game. In Minecraft, mods can add new items, blocks, mobs, user interfaces and entirely new mechanics. Since Minecraft does not support mods by default, mods rely on third-party mod loaders. The most popular ones are Forge and Fabric. There is also server software such as Bukkit and Spigot which supports "plugins" which allow serverside modification. 
 
 ### Prerequisites
+You need to have basic understanding of Java programming, the programming language that you will be developing mods with. This is also the language Minecraft is  developed with. 
+
 ### General Tips
+#### The black box method
+When you develop Minecraft mods, you will be dealing with many things that you do not understand yet. You can simply treat code that you don't understand as a "black box". You do not need to worry as long as you know what it does and how it is used. You do not need to know how it is done behind the scenes. 
+#### Reading vanilla Minecraft code
+A lot of the time when you are stuck on a problem that you do not know how to solve, you might want to copy other's work. This happens a lot in coding. When modding Minecraft, specifically, it is a very good idea to check "how vanilla Minecraft does it" to solve your problem. 
 
 ## Getting Started
 ### Software needed
