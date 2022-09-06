@@ -1,5 +1,10 @@
 # Fabric Modding for Beginners (WIP)
 
+## Contents
+* [About](#about)
+* [Introduction](#introduction)
+* [Getting Started](#getting-started)
+
 ## About
 This is a tutorial on how you can start making fabric mods for Minecraft with little to no experience. The aim of this tutorial is not to merely provide documentation and descriptions, but also to provide explanations for people who may not understand it. Things are explained with simple language and it is easy to understand. 
 I am also not too experienced with modding, so some explainations may be inaccurate. Please correct them if you can see any. 
