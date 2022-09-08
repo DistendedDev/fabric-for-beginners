@@ -32,11 +32,11 @@ A lot of the time when you are stuck on a problem that you do not know how to so
 ### Software needed
 #### Java Development Kit
 JDK(Java Development Kit) is used to develop Java programs. The version you should use depends on the Minecraft version. 
-| MC Version | Java Version |
-|------------|--------------|
-| 1.16-      | Java 8       |
-| 1.17       | Java 16      |
-| 1.18+      | Java 17      |
+| MC Version    | Java Version |
+|---------------|--------------|
+| 1.16 or below | Java 8       |
+| 1.17          | Java 16      |
+| 1.18 or above | Java 17      |
 #### Notepad++
 https://notepad-plus-plus.org/
 #### IntelliJ IDEA
@@ -47,6 +47,9 @@ Its is recommended to get the Minecraft Development Plugin for IntelliJ
 Paint.net is a good program to use for texturing. 
 
 ### Structure
+In order for the mod to be loaded properly by the mod loader, it has to be structured in a specific way. Different parts of your project should include different information about the mod. Since the structure is quite complex, you may use the [Fabric Example Mod](https://github.com/FabricMC/fabric-example-mod) as a template.Simply click "Code" and download it as a ZIP. Alternatively, you may [generate the mod with the Minecraft Development Plugin](#generating-the-mod-with-minecraft-development-plugin). 
+
+There are a few important parts that you should modify. 
 
 ### Generating the mod with Minecraft Development Plugin
 ### Creating a GitHub Repository
@@ -85,7 +88,10 @@ Paint.net is a good program to use for texturing.
 ### Blockstates
 ### Water logging
 ### Custom crop
-### Block entities
+### Adding a block entity
+### Rendering a block dynamically
+### Adding a custom recipe type
+### Adding a screen
 
 ## Fluids
 ### Adding a fluid
